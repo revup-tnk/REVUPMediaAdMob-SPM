@@ -12,7 +12,7 @@ let package = Package(
             targets: ["REVUPMediaAdMobTarget"]),
     ],
     dependencies: [
-        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "12.14.0"),
+        .package(url: "https://github.com/googleads/swift-package-manager-google-mobile-ads.git", exact: "13.6.0"),
     ],
     targets: [
         .target(
@@ -25,8 +25,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "REVUPMediaAdMob",
-            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.0.0/REVUPMediaAdMob.zip",
-            checksum: "91783517a617fb0c470044b5825d197b8563927be8e1cb6428df2b36b9598d94"
+            url: "https://github.com/revup-tnk/REVUP-iOS-SDK/releases/download/1.1.0/REVUPMediaAdMob.zip",
+            checksum: "a49afc92c31c2ecd2e9e94bc3b1719938158d39f747e760eeb48b9aacaf7160c"
         ),
     ]
 )
